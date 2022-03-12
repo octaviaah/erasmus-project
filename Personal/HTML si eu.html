@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HTML si eu</title>
+<link href="css/personalPagetemplate.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Maven+Pro|Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!-- NavBar -->
+<div class="navbar">
+	<div class="top white" id="myNavbar">
+		<a href="index.html">ACASA</a>
+		<a href="Hobby-uri.html">HOBBY-URI</a>
+		<a href="Voluntariat.html">VOLUNTARIAT</a>
+		<a href="HTML si eu.html">HTML SI EU</a>
+		<a href="ProiectCipru.html">PROIECT CIPRU</a>
+		<a href="Contact.html">CONTACT</a>
+	</div>
+</div>
+<!-- Banner -->
+<div class="banner3" id="top"></div>
+<!-- About Me section -->
+<div class="container">
+	<h3 class="center title" style="font-family:Inconsolata">html si eu</h3>
+	<p>La un moment dat, in vietile noastre, toti dam peste coduri imense, care par ca nu au niciun sens. Ei, acele coduri pot fi scris in C++, Pascal sau in HTML. Eu, spre exemplu, am dat prima oara peste HTML prin unealta "Inspect", de la Google Chrome. Un cod a carui lungime depinde de continutul paginii, dar am observat cuvinte cunoscute precum "title", "body", "script", etc. La inceput, nu prea am dat importanta acestei unelte, considerand ca orice as schimba va schimba structura paginii si nu voiam sa stric ceva pe acolo. Mai incolo, aflu ca schimbarile pe care aveam sa le fac nu erau permanente:cand inchideam pagina dispareau imediat(pfiu!). Asa a inceput aventura mea cu "the Inspect tool".
+	<figure style="float:right">
+		<img src="images/inspect tool.PNG" height="300" width="450">
+		<figcaption><center><i>Pagina mea personala de New Tab cu unealta Inspect jos</i></center></figcaption>
+	</figure>
+	In fiecare zi, modificam cate ceva. Un text, o imagine, o culoare. Unealta "Inspect" m-a ajutat foarte mult in a descoperi bazele HTML-ului si m-a invatat lucruri pe care nu ma asteptam sa le invat vreodata. Si asa am ajuns la acest proiect. Cateva cunostinte dinainte si o ambitie iesita din comun m-au dus aici, acum, scriind aceste randuri.
+	</p>
+	<p>Prietenia mea cu HTML-ul a avut un drum foarte abrupt: erau zile in care totul iesea cum voiam eu sa iasa, si altele in care parca nu mai stiam nimic din ce cunosteam si totul parea strain...daaaar partea buna e ca nu m-am lasat! Am avut incredere in mine ca pot reusi si chiar reusesc!</p>
+	<p>Daca scurta mea povestioara va determina sa incepeti sa lucrati la un site, nu uitati ca cel mai important lucru este vointa! Unii oameni incep un site si nu-l mai continua nu doar pentru ca se plictisesc, ci nu mai au nici vointa de la inceput! Sper ca determinarea continua sa va ajute sa realizati ce va propuneti, veti fi cu adevarat mandri la final!</p>
+</div>
+<!-- Footer -->
+<footer class="center opacity footer">
+	<a href="#top" class="button"><i class="fa fa-arrow-up w3-margin-right"></i></a>
+	<p>&copy;2017 - <strong>Hriscu Octavia</strong></p>
+</footer>
+</body>
+<script>
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var bar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        bar.className = "top" + " top-card" + " top-animate" + " top-color";
+    } else {
+        bar.className = bar.className.replace(" top-card top-animate top-color", " white");
+    }
+}
+</script>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact</title>
+<link href="css/personalPagetemplate.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Maven+Pro|Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!-- NavBar -->
+<div class="navbar">
+	<div class="top" id="myNavbar">
+		<a href="index.html">ACASA</a>
+		<a href="Hobby-uri.html">HOBBY-URI</a>
+		<a href="Voluntariat.html">VOLUNTARIAT</a>
+		<a href="HTML si eu.html">HTML SI EU</a>
+		<a href="ProiectCipru.html">PROIECT CIPRU</a>
+		<a href="Contact.html">CONTACT</a>
+	</div>
+</div>
+<!-- About Me section -->
+<div class="container">
+	<h3 class="center title" style="font-family:Cutive Mono">CONTACT</h3>
+	<p>Ca majoritatea persoanelor in ziua de azi, ma puteti gasi online pentru a-mi scrie un mesaj constructiv sau ceva asemanator.</p>
+	<br>
+	<p class="pad"><i class="fa fa-facebook-official" style="font-size:40px"></i>&emsp;&emsp;Octavia Hriscu</p>
+	<br>
+	<p class="pad"><i class="fa fa-yahoo" style="font-size:40px"></i>&emsp;&emsp;octaviahriscu@yahoo.com</p>
+	<br>
+	<p class="pad"><i class="fa fa-google" style="font-size:40px"></i>&emsp;&emsp;octaviahriscu@gmail.com</p>
+</div>
+
+<!-- Footer -->
+<footer class="center opacity footer" style="margin-top:57px">
+	<a href="#top" class="button"><i class="fa fa-arrow-up w3-margin-right"></i></a>
+	<p>&copy;2017 - <strong>Hriscu Octavia</strong></p>
+</footer>
+</body>
+<script>
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var bar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        bar.className = "top" + " top-card" + " top-animate" + " top-color";
+    } else {
+        bar.className = bar.className.replace(" top-card top-animate top-color", "");
+    }
+}
+</script>
+</html>

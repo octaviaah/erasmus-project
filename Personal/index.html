@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frontpage</title>
+<link href="css/personalPagetemplate.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Maven+Pro|Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+<!-- NavBar -->
+<div class="navbar">
+	<div class="top white" id="myNavbar">
+		<a href="index.html">ACASA</a>
+		<a href="Hobby-uri.html">HOBBY-URI</a>
+		<a href="Voluntariat.html">VOLUNTARIAT</a>
+		<a href="HTML si eu.html">HTML SI EU</a>
+		<a href="ProiectCipru.html">PROIECT CIPRU</a>
+		<a href="Contact.html">CONTACT</a>
+	</div>
+</div>
+<!-- Banner -->
+<div class="banner1" id="top">
+	<span class="logo opacity">SITE-UL MEU PERSONAL</span>
+</div>
+<!-- About Me section -->
+<div class="container">
+	<h3 class="center title" style="font-family:Indie Flower">DESPRE MINE</h3>
+	<div class="half-padding center">
+		<p>Octavia</p>
+		<br>
+		<img src="images/IMG_0429.JPG" alt="Photo of me" height="400" width="400" class="opacity">
+	</div>
+	<div class="half-padding" style="float:right">
+		<p>
+		<br><br>
+		Heei! Eu sunt Octavia, am 16 ani si acesta este site-ul meu de prezentare. Sunt o persoana extrovertita, destul de sensibila si foarte optimista, dar si incapatanata, defect generat de ambitia mea dusa la extrem. Imi place foarte mult sa ajut oamenii, din aceasta cauza sunt voluntar in asociatia "People to People International". Am o adevarata pasiune pentru calatorie si imi place sa fac poze la locurile pe care le vizitez. De asemenea, ador sa ma uit la sport, in special la fotbal si tenis. Iubesc animalutele, in special pisicile.
+		<br>
+		Imi place sa ma uit la filme(fiindca nu am rabdare sa ma uit la seriale in general) si sa discut despre evenimente care se intampla pe glob, dar mai ales despre sport. Imi place foarte mult sa editez poze si sa citesc articole despre evenimente istorice sau despre locatii de pe glob.</p>
+	</div>
+</div>
+<p class="center" style="font-size:18px; padding:16px 0px"><b>Abilitati</b></p>
+<div class="gallery">
+    <div class="thumbnail">
+      <i class="stats fa fa-photo" style="font-size:60px"></i>
+      <h4>editez in Adobe Photoshop</h4>
+    </div>
+    <div class="thumbnail">
+      <i class="stats fa fa-comments" style="font-size:60px"></i>
+	  <h4>vorbesc limba engleza fluent</h4>
+    </div>
+    <div class="thumbnail">
+      <i class="stats material-icons" style="font-size:60px">memory</i>
+      <h4>am o memorie vizuala foarte buna</h4>
+    </div>
+    <div class="thumbnail">
+      <i class="stats fa fa-thumb-tack" style="font-size:60px"></i>
+      <h4>sunt foarte punctuala</h4>
+    </div>
+  </div>
+<!-- Footer -->
+<footer class="center opacity footer">
+	<a href="#top" class="button"><i class="fa fa-arrow-up w3-margin-right"></i></a>
+	<p>&copy;2017 - <strong>Hriscu Octavia</strong></p>
+</footer>
+</body>
+<script>
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var bar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        bar.className = "top" + " top-card" + " top-animate" + " top-color";
+    } else {
+        bar.className = bar.className.replace(" top-card top-animate top-color", " white");
+    }
+}
+</script>
+</html>
