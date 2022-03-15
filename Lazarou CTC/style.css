@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#72D7A0;
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+header{padding:1%;}
+nav ul li {
+	list-style-type: none;
+	padding-left: 20px;
+	text-align: left;
+	display: inline-block;
+    
+}
+header img{border-radius:160px;
+           float:left;}
+nav{ padding-top: 70px;
+     padding-left: 150px;}
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+}
+.rt {
+	width:100px;
+	height:auto;
+}
+
+main {margin: 1%;
+     height:auto;
+	 border-radius:30px;
+     background-color:white;
+     text-align: left;
+	 font-size: 20px;
+     padding: 2%;}
+
+
+footer{font-size:15px;
+       text-align: center;
+       margin:1%;}
+.lg{width:40px;
+    height:auto;}
+.cover{
+	padding: 1px;
+	width:100%;
+	height:auto;
+	border-radius: 30px;
+}
+
+h1  {font-size: 45px;
+	 text-align: center;
+}
+.decor {
+	color:#122447;
+	text-decoration:none;
+}
+
+.button{border:none;
+        display:block;
+	    align-content: center;
+	    cursor:pointer;
+        }
+
+@media(max-width:800px){
+	#meniu ul li{
+		display: block;
+		margin:10px 0px;
+		
+	}
+	#meniu ul li a{font-size: 15px; 
+	 }
+	h1{ font-size:35px;}
+	main{font-size: 15px;}
+}
+
+#meniu ul li a:hover{
+	color:white;
+}
+.button img{width:50px;
+            height:50px;}
